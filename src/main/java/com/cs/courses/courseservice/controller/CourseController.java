@@ -42,7 +42,7 @@ public class CourseController {
 
 	@GetMapping("/")
 	public String welcome() {
-		return "Welcome to Course Service";
+		return "Welcome to Course Services";
 	}
 
 	@GetMapping("/courses")
